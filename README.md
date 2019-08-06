@@ -1,6 +1,6 @@
 # DSS Computing Bootcamp
 
-This is a 3 hour computing bootcamp for incoming PhD and MS
+Here we have a 4 hour computing bootcamp for incoming PhD and MS
 students to the Department of Statistical Science at Duke University.
 
 The workshop will cover the following topics:
