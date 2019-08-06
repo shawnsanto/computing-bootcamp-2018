@@ -29,6 +29,7 @@ gap <- read_csv("https://bit.ly/gap_data")
 How many observations are in this dataset?
 
 ```{r nrow}
+nrow(gap)
 ```
 
 ### Exercise 2
