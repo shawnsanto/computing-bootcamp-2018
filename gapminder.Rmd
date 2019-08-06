@@ -14,6 +14,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.width = 7)
 
 ```{r message=FALSE}
 library(tidyverse)
+library(reticulate)
 ```
 
 ## Load data
@@ -46,4 +47,20 @@ Add year 1967 in another color.
 
 ```{r eu_52_67}
 ```
+
+### Exercise 4
+
+```{python}
+a = [1, 2, 3, 4, 5]
+
+for i in range(5):
+  a.pop()
+  print(a)
+```
+
+
+
+
+
+
 

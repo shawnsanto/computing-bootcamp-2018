@@ -373,7 +373,8 @@ summary {
 
 <div id="load-packages" class="section level2">
 <h2>Load packages</h2>
-<pre class="r"><code>library(tidyverse)</code></pre>
+<pre class="r"><code>library(tidyverse)
+library(reticulate)</code></pre>
 </div>
 <div id="load-data" class="section level2">
 <h2>Load data</h2>
@@ -403,6 +404,24 @@ summary {
 <div id="exercise-3" class="section level3">
 <h3>Exercise 3</h3>
 <p>Add year 1967 in another color.</p>
+</div>
+<div id="exercise-4" class="section level3">
+<h3>Exercise 4</h3>
+<pre class="python"><code>a = [1, 2, 3, 4, 5]
+
+for i in range(5):
+  a.pop()
+  print(a)</code></pre>
+<pre><code>## 5
+## [1, 2, 3, 4]
+## 4
+## [1, 2, 3]
+## 3
+## [1, 2]
+## 2
+## [1]
+## 1
+## []</code></pre>
 </div>
 </div>
 
